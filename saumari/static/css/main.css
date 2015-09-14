@@ -1,0 +1,175 @@
+@import url(http://fonts.googleapis.com/css?family=Architects+Daughter);
+@import url(http://fonts.googleapis.com/css?family=Gochi+Hand);
+
+body {
+  display: block;
+  text-align: center;
+  color: black !important;
+  font-size: 20px;
+  background: url('../img/saumari1.png') !important;
+  background-size: 100% !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
+       
+}
+
+h1 {
+  color: black !important;
+  font-family: 'Architects Daughter', cursive !important;
+  font-weight: 600 !important;
+  font-size: 73px !important;
+}
+
+h2 {
+  color: black !important;
+  font-family: 'Architects Daughter', cursive !important;
+  font-weight: 600 !important;
+  font-size: 40px !important;
+}
+
+.hCarousel{
+    margin: 0;     
+    color: #666;
+    padding-top: 90px;
+    font-size: 52px;
+    font-family: "trebuchet ms", sans-serif;    
+}
+
+p {
+  color: black;
+}
+
+.lb-details {
+  visibility: hidden;
+}
+
+.jumbotron {
+  background-color: rgba(255, 255, 255, 0.7) !important;
+  margin: auto;
+  padding-top: 40px !important;
+  padding-bottom: 40px !important;
+}
+
+.bs-example.jumbotron {
+  background-color: transparent !important;
+  margin: auto;
+  padding-top: 0 !important;
+}
+
+.jumbotron p {
+  font-size: 19px !important;
+  width: 50%;
+  margin: auto;
+}
+
+.gallery {
+  margin-bottom: 60px !important;
+  text-align: justify;
+}
+
+.gallery a:hover {
+  color: turquoise;
+}
+
+.gallery a {
+  color: gray;
+}
+
+.gallery img{
+  margin-bottom: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  position: absolute;
+}
+
+.navbar {
+  background-color: #DF01A5 !important;
+  border-color: #DF01A5 !important;
+}
+
+#navbar {
+  color: black;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  background-color: #DF01A5 !important;
+  color: turquoise !important;
+}
+
+.btn {
+  background-color: #DF01A5 !important;
+  border-color: #DF01A5 !important;
+}
+
+.logo {
+  background-image: url('../img/saumari_logo.png');
+  background-size: contain;
+  height: 80px;
+  width: 350px;
+  margin: auto;
+  background-repeat: no-repeat;
+}
+
+.navbar-brand {
+  background-image: url('../img/saumari_logo_valge1.png');
+  background-size: contain;
+  width: 170px;
+  margin-left: 5px !important;
+  background-repeat: no-repeat;
+}
+
+.jt {
+  margin-top: 5%;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+background-color: #DF01A5 !important;
+color: #ffffff;
+}
+
+.navbar-fixed-bottom {
+  min-height: 25px !important;
+  color: white;
+  font-size: small;
+  text-align: right;
+}
+
+.navbar-fixed-bottom span{
+  margin-right: 5%;
+}
+
+.navbar-fixed-bottom a {
+  color: turquoise !important;
+}
+
+.thumbnail {
+  background-color: white !important;
+  border: 1px solid lightgray !important;
+  width: 100% !important;
+  height: 260px !important;
+  text-align: right;
+}
+
+a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
+border-color: turquoise !important;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+background-color: turquoise !important;
+}
+
+.item{
+    background: #333;    
+    text-align: center;
+    height: 300px !important;
+}
+.carousel{
+  border-style: solid;
+  border-width: 4px;
+  border-color: white;
+}
+.bs-example{
+  margin: auto;
+  width: 50%;
+
+}

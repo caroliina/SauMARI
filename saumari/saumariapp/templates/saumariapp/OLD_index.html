@@ -1,0 +1,9 @@
+{% if listings %}
+    <ul>
+    {% for listing in listings %}
+        <li><a href="/saumariapp/{{ listing.id }}/">{{ listing.description }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No listings are available.</p>
+{% endif %}
